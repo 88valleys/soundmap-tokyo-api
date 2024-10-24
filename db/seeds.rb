@@ -1,9 +1,34 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+require "json"
+
+puts "Destroying all livehouses from the DB... 😵"
+Livehouse.destroy_all
+
+# Path to your JSON file
+file_path = Rails.root.join("db", "seeds", "livehouses.json")
+
+puts "Getting the livehouses from the JSON..."
+
+# Read and parse the JSON file
+livehouses_data = JSON.parse(File.read(file_path))
+
+# Iterate over each livehouse entry and create records in the database
+livehouses_data.each do |livehouse|
+  puts "Creating Livehouse: #{livehouse["title"]}"
+  Livehouse.create!(
+    title: livehouse["title"],
+    address: livehouse["address"],
+    picture: livehouse["picture"],
+    hours: livehouse["hours"],
+    capacity: livehouse["capacity"],
+    website_url: livehouse["website_url"],
+    contact_email: livehouse["contact_email"],
+    nearest_station: livehouse["nearest_station"],
+    event_calendar_url: livehouse["event_calendar_url"],
+    genres: livehouse["genres"],
+    equipment: livehouse["equipment"],
+  )
+end
+
+# Print the count of livehouses
+livehouse_count = Livehouse.count
+puts "Livehouse DB updated! Total livehouses: #{livehouse_count} 💃"
