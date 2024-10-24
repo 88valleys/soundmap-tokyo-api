@@ -1,0 +1,141 @@
+[
+    {
+      "title": "Ruby Room",
+      "address": "B1, 2-25-17 Dogenzaka, Shibuya, Tokyo 150-0043",
+      "picture": "https://i.imghippo.com/files/EdiM7747DEU.jpg",
+      "hours": {
+        "monday": "18:00 - 02:00",
+        "tuesday": "18:00 - 02:00",
+        "wednesday": "18:00 - 02:00",
+        "thursday": "18:00 - 02:00",
+        "friday": "18:00 - 04:00",
+        "saturday": "18:00 - 04:00",
+        "sunday": "18:00 - 02:00"
+      },
+      "capacity": 150,
+      "website_url": "https://rubyroomtokyo.com",
+      "contact_email": "info@rubyroomtokyo.com",
+      "nearest_station": "Shibuya Station",
+      "event_calendar_url": "https://rubyroomtokyo.com/events/",
+      "genres": ["Rock", "Jazz", "Electronic"]
+    },
+    {
+      "title": "Shibuya Nob",
+      "address": "3-9-10 Shibuya, Tokyo 150-0002",
+      "picture": "https://i.imghippo.com/files/ytb6794k.jpg",
+      "hours": {
+        "monday": "16:00 - 23:00",
+        "tuesday": "16:00 - 23:00",
+        "wednesday": "16:00 - 23:00",
+        "thursday": "16:00 - 23:00",
+        "friday": "16:00 - 23:00",
+        "saturday": "16:00 - 23:00",
+        "sunday": "Closed"
+      },
+      "capacity": 100,
+      "website_url": "https://shibuyanob.com",
+      "contact_email": "info@shibuyanob.com",
+      "nearest_station": "Shibuya Station",
+      "event_calendar_url": "https://shibuyanob.com/events",
+      "genres": ["Indie", "Folk", "Rock"]
+    },
+    {
+      "title": "Shimokitazawa CREAM",
+      "address": "東京都世田谷区北沢2-33-7",
+      "picture": "https://i.imghippo.com/files/rNUG9583nQ.png",
+      "hours": {
+        "monday": "17:00 - 23:00",
+        "tuesday": "17:00 - 23:00",
+        "wednesday": "17:00 - 23:00",
+        "thursday": "17:00 - 23:00",
+        "friday": "17:00 - 23:00",
+        "saturday": "17:00 - 23:00",
+        "sunday": "17:00 - 23:00"
+      },
+      "capacity": 120,
+    "website_url": "https://x.com/creamkitazawa",
+      "contact_email": "cream.shimokitazawa.info@gmail.com",
+      "nearest_station": "Shimokitazawa Station",
+      "genres": ["Pop", "Punk", "Electronic", "Emo"]
+    },
+    {
+      "title": "Shimokitazawa Breath",
+      "address": "2 Chome-14-73F Kitazawa, Setagaya City, Tokyo 155-0031",
+      "picture": "https://i.imghippo.com/files/ULy4043rHA.jpg",
+      "hours": {
+        "monday": "18:00 - 00:00",
+        "tuesday": "18:00 - 00:00",
+        "wednesday": "18:00 - 00:00",
+        "thursday": "18:00 - 00:00",
+        "friday": "18:00 - 00:00",
+        "saturday": "18:00 - 00:00",
+        "sunday": "Closed"
+      },
+      "capacity": 200,
+      "website_url": "https://breath335.com/english/",
+      "nearest_station": "Shimokitazawa Station",
+      "event_calendar_url": "https://breath335.com/english/schedule/",
+      "genres": ["Acoustic", "Folk", "Indie"]
+    },
+    {
+      "title": "SANGENJAYA HEAVEN'S DOOR",
+      "address": "〒154-0024 Tokyo, Setagaya City, Sangenjaya, 1 Chome−33−19 B1F",
+      "picture": "https://i.imghippo.com/files/oKi3372cRs.png",
+      "hours": {
+        "monday": "18:00 - 02:00",
+        "tuesday": "18:00 - 02:00",
+        "wednesday": "18:00 - 02:00",
+        "thursday": "18:00 - 02:00",
+        "friday": "18:00 - 03:00",
+        "saturday": "18:00 - 03:00",
+        "sunday": "Closed"
+      },
+      "capacity": 200,
+      "website_url": "https://heavens-door-music.com/",
+      "contact_email": "info@heavensdoor.com",
+      "nearest_station": "Sangenjaya Station",
+      "event_calendar_url": "https://heavens-door-music.com/schedule/",
+      "genres": ["Punk", "Rock", "Metal"]
+    },
+    {
+      "title": "Shimokitazawa Club Que",
+      "address": "〒115-0023 Tokyo, Setagaya City, Kitazawa, 2 Chome−5−2 下北沢ビッグベンビル B2F",
+      "picture": "https://i.imghippo.com/files/XlLc1185Q.jpg",
+      "hours": {
+        "monday": "17:00 - 23:00",
+        "tuesday": "17:00 - 23:00",
+        "wednesday": "17:00 - 23:00",
+        "thursday": "17:00 - 23:00",
+        "friday": "17:00 - 23:00",
+        "saturday": "17:00 - 23:00",
+        "sunday": "17:00 - 23:00"
+      },
+      "capacity": 250,
+      "website_url": "https://clubque.net",
+      "contact_email": "que_booking@ukproject.com",
+      "nearest_station": "Shimokitazawa Station",
+      "event_calendar_url": "https://clubque.net/schedule/",
+      "genres": ["Rock", "Indie", "Alternative"]
+    },
+    {
+      "title": "Shinjuku LOFT",
+      "address": "〒160-0021 Tokyo, Shinjuku City, Kabukicho, 1 Chome−12−9 タテハナビル",
+      "picture": "https://i.imghippo.com/files/cKsK7667YQ.png",
+      "hours": {
+        "monday": "18:00 - 02:00",
+        "tuesday": "18:00 - 02:00",
+        "wednesday": "18:00 - 02:00",
+        "thursday": "18:00 - 02:00",
+        "friday": "18:00 - 04:00",
+        "saturday": "18:00 - 04:00",
+        "sunday": "18:00 - 02:00"
+      },
+      "capacity": 500,
+      "website_url": "https://loft-prj.co.jp/LOFT/",
+      "contact_email": "info@loft-prj.co.jp",
+      "nearest_station": "Shinjuku Station",
+      "event_calendar_url": "https://www.loft-prj.co.jp/schedule/loft/schedule",
+      "genres": ["Rock", "Metal", "Electronic"]
+    }
+  ]
+  
