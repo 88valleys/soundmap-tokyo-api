@@ -136,6 +136,26 @@
       "nearest_station": "Shinjuku Station",
       "event_calendar_url": "https://www.loft-prj.co.jp/schedule/loft/schedule",
       "genres": ["Rock", "Metal", "Electronic"]
+    },
+    {
+      "title": "NEPO",
+      "address": "〒181-0013 Tokyo, Mitaka, Shimorenjaku, 1 Chome−17−4 GRATO井の頭公園 B1F",
+      "picture": "https://i.imghippo.com/files/poe6237DJY.png",
+      "hours": {
+        "sunday": "18:00 - 23:00",
+        "monday": "18:00 - 23:00",
+        "tuesday": "18:00 - 23:00",
+        "wednesday": "18:00 - 23:00",
+        "thursday": "18:00 - 23:00",
+        "friday": "18:00 - 23:00",
+        "saturday": "18:00 - 23:00"
+      },
+      "capacity": 150,
+      "website_url": "https://nepo.co.jp/",
+
+      "nearest_station": "Kichijoji Station",
+      "event_calendar_url": "https://nepo.co.jp/schedules/",
+      "genres": ["Rock", "Ambient", "Experimental", "Electronic"]
     }
   ]
   
