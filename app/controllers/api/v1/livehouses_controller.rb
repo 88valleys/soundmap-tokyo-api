@@ -18,6 +18,12 @@ class Api::V1::LivehousesController < ApplicationController
     end
   end
 
+  def destroy
+    @livehouse = Livehouse.find(params[:id])
+    @livehouse.destroy
+    head :no_content
+  end
+
   private
 
   def livehouse_params
